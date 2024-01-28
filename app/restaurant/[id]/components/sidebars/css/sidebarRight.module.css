@@ -1,0 +1,84 @@
+.container{
+    font-family: IRANSansMobile;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.restInfo{
+    font-size: .7rem;
+}
+.restImgLogo{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    
+}
+.badge{
+    background-color: #fff!important;
+    padding: .5rem .8rem;
+    box-shadow: var(--sf-shadows-small);
+    color: var(--sf-accent-main);
+    border-radius: 50px;
+}
+.restName{
+    font-weight: bold;
+    color: var(--sf-carbon-main);
+    margin: 0;
+    text-align: end;
+    margin-top: .5rem;
+}
+
+.restCommentBtn{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    box-shadow: var(--sf-shadows-medium);
+    color: var(--sf-accent2-main);
+    margin-top: 1rem;
+    padding: .5rem 0;
+    cursor: pointer;
+    font-size: .9rem;
+    transition: all .5s;
+    border: .1rem solid #eee;
+}
+.restCommentBtn:hover{
+    color: var(--sf-accent2-dark);
+}
+
+.foodList{
+    width: 100%;
+    border: none!important;
+    text-align: left;
+    background-color: transparent!important;
+    max-height: 700px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 0!important;
+}
+.listItem{
+    color: var(--sf-carbon-light);
+    width: 100%;
+    margin-bottom: .9rem;
+    transition: all .5s;
+    border-radius: 0!important;
+    border-left: 0.125rem solid rgba(58, 61, 66, 0)!important;
+    
+}
+.listItem:focus{
+    color: black;
+    font-weight: bolder!important;
+    border-left: 0.125rem solid rgb(58, 61, 66)!important;
+}
+
+@media (max-width:1023){
+    .container{
+        width: 100%;
+    }
+    .foodList{
+        overflow: visible;
+        max-height: auto;
+        text-align: end!important;
+    }
+}
+

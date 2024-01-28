@@ -1,0 +1,40 @@
+main.main {
+    width: 100%;
+    max-width: 85.375rem;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: rgba(231, 231, 231, 0.434);
+}
+
+.breadItem:last-child  {
+    color: #000;
+ }
+.breadItem{
+    font-size: .7rem;
+    color: var(--sf-inactive-dark);
+    font-family: IRANSansMobile;
+    font-weight: bold;
+}
+
+
+@media(max-width:766px){
+    .sidebarPosition{
+        position: relative;
+    }
+    .main{
+        flex-direction: column-reverse;
+    }
+    .sidebarItem{
+        width: 100%;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    .main{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sidebarItem{
+        width: 100%;
+    }
+}

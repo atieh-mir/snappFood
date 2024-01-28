@@ -1,0 +1,74 @@
+.footerContainer{
+    font-family: IRANSansMobile;
+}
+.main{
+    background-color: var(--sf-surface-main);
+}
+
+
+.footerImg{
+    width: 70px;
+    height: fit-content;
+}
+
+.footerLink{
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(58, 61, 66);
+    cursor: pointer;
+    
+}
+
+.logoImg{
+    width: 90px;
+}
+
+.footerTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--sf-accent-main);
+    font-family: 'SnapWeb'
+}
+
+.iconsContainer{
+    margin-right: 6rem;
+}
+
+.icons{
+    border-radius: 50px;
+    box-shadow: var( --sf-shadows-high);
+    border: .1rem solid rgba(0, 0, 0, 0.104);
+    margin-left: 1rem;
+    padding: .3rem .7rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.socialIcon{
+    width: 15px;
+}
+
+@media (max-width:1022px){
+    .footerContainer{
+        flex-direction: column;
+    }
+    .main{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .iconsContainer{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    .icons{
+        margin-left: 0;
+        padding: .3rem .6rem;
+    }
+    .mobileMargin{
+        margin-bottom: 2rem;
+    }
+}

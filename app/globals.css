@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'IRANSansMobile';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('https://cdn.snappfood.ir/pwa/assets/fonts/woff2/IRANSansWeb.woff2');
+}
+
+@font-face {
+  font-family: 'IRANSansMobile';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url('https://cdn.snappfood.ir/pwa/assets/fonts/woff2/IRANSansWeb_Bold.woff2');
+}
+
+@font-face {
+  font-family: 'SnapWeb';
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+  src: url('https://snappfood.ir/downloads/fonts/SnppWeb-Fonts/SnappWeb2.0-Regular.woff');
+}
+
+@font-face {
+  font-family: 'SnapWeb';
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+  src: url('https://snappfood.ir/downloads/fonts/SnppWeb-Fonts/SnappWeb2.0-Bold.woff');
+}
+
+@font-face {
+  font-family: 'SnapWeb';
+  font-style: normal;
+  font-weight: 300;
+  font-display: fallback;
+  src: url('https://snappfood.ir/downloads/fonts/SnppWeb-Fonts/SnappWeb2.0-Light.woff');
+}
+
+:root {
+  font-family: IRANSansMobile;
+  --sf-surface-main: #F9FAFB;
+  --sf-surface-dark: #EBEDF0;
+  --sf-surface-light: #FFFFFF;
+  --sf-surface-overlay: #3A3D42;
+  --sf-surface-alphaLight: rgba(249,250,251,0.06);
+  --sf-surface-alphaMedium: rgba(249,250,251,0.12);
+  --sf-surface-alphaHigh: rgba(249,250,251,0.24);
+  --sf-carbon-main: #3A3D42;
+  --sf-carbon-dark: #181B1F;
+  --sf-carbon-light: #53565C;
+  --sf-carbon-overlay: #FFFFFF;
+  --sf-carbon-alphaLight: rgba(58,61,66,0.06);
+  --sf-carbon-alphaMedium: rgba(58,61,66,0.12);
+  --sf-carbon-alphaHigh: rgba(24,28,32,0.2);
+  --sf-accent-main: #FF00A6;
+  --sf-accent-dark: #E00096;
+  --sf-accent-light: #FF38AC;
+  --sf-accent-overlay: #FFFFFF;
+  --sf-accent-alphaLight: rgba(255,0,166,0.06);
+  --sf-accent-alphaMedium: rgba(255,0,166,0.12);
+  --sf-accent-alphaHigh: rgba(255,0,166,0.24);
+  --sf-accent2-main: #00B862;
+  --sf-accent2-dark: #008542;
+  --sf-accent2-light: #18C775;
+  --sf-accent2-overlay: #FFFFFF;
+  --sf-accent2-alphaLight: rgba(0,133,66,0.06);
+  --sf-accent2-alphaMedium: rgba(0,133,66,0.1);
+  --sf-accent2-alphaHigh: rgba(0,133,66,0.2);
+  --sf-alert-main: #FA284B;
+  --sf-alert-dark: #E00025;
+  --sf-alert-light: #FF3D5D;
+  --sf-alert-overlay: #FFFFFF;
+  --sf-alert-alphaLight: rgba(250,40,75,0.04);
+  --sf-alert-alphaMedium: rgba(250,40,75,0.12);
+  --sf-alert-alphaHigh: rgba(250,40,75,0.24);
+  --sf-attention-main: #FACB0F;
+  --sf-attention-dark: #9E6900;
+  --sf-attention-light: #FFD83D;
+  --sf-attention-overlay: #000000;
+  --sf-attention-alphaLight: rgba(250,203,15,0.1);
+  --sf-attention-alphaMedium: rgba(250,203,15,0.2);
+  --sf-attention-alphaHigh: rgba(250,203,15,0.36);
+  --sf-inactive-main: #EDEFF0;
+  --sf-inactive-dark: #A6AAAD;
+  --sf-inactive-light: #EDEFF0;
+  --sf-inactive-overlay: #EDEFF0;
+  --sf-inactive-alphaLight: #EDEFF0;
+  --sf-inactive-alphaMedium: #EDEFF0;
+  --sf-inactive-alphaHigh: #EDEFF0;
+  --sf-fonts-default: IRANSansMobile;
+  --sf-fonts-snapweb: SnapWeb;
+  --sf-scales-default: 1rem;
+  --sf-scales-caption: 0.75rem;
+  --sf-scales-xlarge: 1.5rem;
+  --sf-scales-xxlarge: 1.75rem;
+  --sf-scales-large: 1.125rem;
+  --sf-scales-body: 0.875rem;
+  --sf-scales-tiny: 0.625rem;
+  --sf-lineHeight-default: 1.5rem;
+  --sf-lineHeight-caption: 1rem;
+  --sf-lineHeight-xlarge: 2rem;
+  --sf-lineHeight-xxlarge: 2.25rem;
+  --sf-lineHeight-large: 1.75rem;
+  --sf-lineHeight-body: 1.25rem;
+  --sf-lineHeight-tiny: 0.75rem;
+  --sf-weight-bold: 700;
+  --sf-weight-regular: 500;
+  --sf-weight-normal: 400;
+  --sf-weight-light: 300;
+  --sf-spacing-0: 0rem;
+  --sf-spacing-1: 0.5rem;
+  --sf-spacing-2: 1rem;
+  --sf-spacing-3: 1.5rem;
+  --sf-spacing-4: 2rem;
+  --sf-spacing-5: 2.5rem;
+  --sf-spacing-6: 3rem;
+  --sf-spacing-7: 3.5rem;
+  --sf-spacing-8: 4rem;
+  --sf-spacing-9: 4.5rem;
+  --sf-spacing-10: 5rem;
+  --sf-breakpoints-xs: 0px;
+  --sf-breakpoints-sm: 600px;
+  --sf-breakpoints-md: 960px;
+  --sf-breakpoints-lg: 1280px;
+  --sf-breakpoints-xl: 1920px;
+  --sf-borders-xs: 0.09375rem;
+  --sf-borders-md: 0.1875rem;
+  --sf-borders-lg: 0.375rem;
+  --sf-shadows-inset: inset 0px 1px 6px rgba(0,0,0,0.04);
+  --sf-shadows-small: 0px 1px 0px rgba(58,61,66,0.06),0px 2px 8px -2px rgba(0,0,0,0.05);
+  --sf-shadows-medium: 0px 1px 0px rgba(58,61,66,0.06),0px 4px 16px -8px rgba(0,0,0,0.2);
+  --sf-shadows-high: 0px 2px 0px rgba(58,61,66,0.06),0px 8px 32px -16px rgba(0,0,0,0.3);
+  --sf-shadows-modal: 0px 2px 8px rgba(0,0,0,0.08),0px 8px 32px rgba(0,0,0,0.16);
+  --sf-shadows-none: none;
+};
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* swiper navigation custom style */
+.swiper-button-prev,
+.swiper-button-next{
+  color: #E00096!important;
+  width: 3rem!important;
+  height: 3rem!important;
+  background-color: rgb(244, 244, 244);
+  border-radius: 50px;
+  box-shadow:0px 1px 0px rgba(58, 61, 66, 0.419),0px 8px 32px -16px rgba(0, 0, 0, 0.953);
+}
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  width: 50%!important;
+  height: 50%!important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 1rem!important;
+  text-transform: none !important;
+  font-weight: bolder!important;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, 5px)!important;
+  right: auto;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, 5px)!important;
+  left: auto;
+}
+
+/* swiper tablet and mobile sizee custom style  */
+
+@media (max-width:1023px){
+  .swiper{
+    width: 100%;
+  }
+}
+
+
+

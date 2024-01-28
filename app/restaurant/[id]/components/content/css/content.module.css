@@ -1,0 +1,67 @@
+.container{
+    max-height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: #fff;
+    border: .1rem solid #eee;
+    border-radius: 10px;
+    text-align: center;
+    font-family: IRANSansMobile;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.title{
+    color: var(--sf-carbon-main);
+    margin: 1rem 0;
+}
+
+.foodCart{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem ;
+    border: .1rem solid #eee;
+    cursor: pointer;
+}
+.foodImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.foodDes{
+    font-size: .8rem;
+    color: var(--sf-inactive-dark);
+}
+.foodBtn{
+    background-color: #fff;
+    border: .1rem solid #eee;
+    border-radius: 50px;
+    padding: .3rem 2rem;
+    color: var( --sf-accent-main);
+    box-shadow: var(--sf-shadows-high);
+    transition: all .5s;
+    
+}
+.foodBtn:hover{
+    background-color: var(--sf-accent-main);
+    color: #fff;
+}
+
+@media (max-width:1023px){
+    .container{
+        max-height: fit-content;
+    }
+    .foodCart{
+        width: 100%;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    .container{
+        max-height: 80vh;
+    }
+}

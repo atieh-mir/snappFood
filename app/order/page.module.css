@@ -1,0 +1,9 @@
+main.main{
+    max-width: 1024px;
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+/* not found page  */
+.notFoundContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: IRANSansMobile;
+    text-align: center;
+    overflow: hidden;
+  }
+  .notFoundImg{
+    width: 200px;
+  }
+  .notFoundText{
+    color: var(--sf-accent-dark);
+    margin: 2rem 0;
+    font-weight: bold;
+  }
+  .notFoundBtn{
+    border: none;
+    background-color: var(--sf-carbon-light);
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }

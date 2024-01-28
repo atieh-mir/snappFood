@@ -1,0 +1,25 @@
+.formSelect{
+    width: 16%!important;
+    direction: rtl!important;
+    background-position: left 0.75rem center!important;
+    font-family: IRANSansMobile;
+    color: var(--sf-inactive-dark)!important;
+    padding: .7rem .5rem!important;
+}
+
+.formSelect option{
+    color: #000!important;
+}
+
+@media (max-width:765px){
+    .formSelect{
+        width: 70%!important;
+        margin-top: 1rem;
+    }
+}
+@media (min-width:766px) and (max-width:1023px){
+    .formSelect{
+        width: 40%!important;
+        margin-top: 1rem;
+    }
+}

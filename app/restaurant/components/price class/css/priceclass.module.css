@@ -1,0 +1,32 @@
+.main{
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid #eee;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-family: IRANSansMobile;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.priceTitle{
+    font-size: .7rem;
+    color: var(--sf-carbon-light);
+}
+.listContainer{
+    background-color: rgba(222, 222, 222, 0.722);
+    border-radius: 10px;
+    align-items: center;
+}
+.listItem{
+    cursor: pointer;
+}
+.listItemActive{
+    background-color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 8px;
+    color: var(--sf-accent2-main);
+}
+

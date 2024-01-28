@@ -1,0 +1,120 @@
+.partyContainer{
+    background: linear-gradient(90deg, rgb(255, 95, 121) 0%, rgb(255, 31, 177) 100%);
+    border-radius: 8px;
+    border-bottom-right-radius: 100px;
+    font-family: IRANSansMobile!important;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row-reverse;
+}
+.partyDetail{
+    width: 30%;
+}
+.partyImg{
+    width: 50%;
+}
+.partyBtn{
+    width: 70%;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: bold;  
+}
+.iconPink{
+    color: var(--sf-accent-main);
+    font-size: .8rem; 
+    margin-right: .5rem;
+}
+
+.sparkles{
+   width: 30px;
+   height: 30px;
+}
+.cards{
+    width: 80%!important;
+    font-family: IRANSansMobile!important;
+    height: 90%!important;
+    cursor: pointer;
+}
+.cardFoodTitle{
+    font-weight: bold!important;
+    font-size: .8rem!important;
+}
+.cardInfo{
+    font-size: .7rem;
+}
+.dealText{
+    text-decoration: line-through;
+    font-size: .7rem;
+    color: var( --sf-carbon-light);
+}
+
+.badge{
+    background-color: var(--sf-accent-light)!important;
+}
+.countText{
+    font-size: .7rem;
+}
+
+
+.modalHead{
+    background-color: var(--sf-accent-light);
+    color: #fff;
+    font-family: IRANSansMobile;
+}
+
+.modalBody{
+    font-family: IRANSansMobile;
+    max-height: 700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.modalSubmitBtn{
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    padding: 0rem 3rem;
+    color: var(--sf-accent-main);
+    border-radius: 50px;
+    box-shadow: rgba(58, 61, 66, 0.291) 0px 1px 2px, rgba(0, 0, 0, 0.308) 0px 4px 16px -8px;
+}
+.modalBadge{
+    background-color: #ffd9ef!important;
+    color: var(--sf-accent-main)!important;
+}
+
+
+.commentSecTitle{
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: #53565C;
+} 
+.commentSec{
+    width: 100%;
+}
+
+@media (max-width:1022px){
+    .modalBody{
+        max-height: 400px;
+    }
+}
+
+
+
+
+@media (max-width:1022px){
+    .partyDetail{
+        width: 100%;
+    }
+    .foodSec{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width:1023px){
+    .partyDetail{
+        width: 30%!important;
+    }
+}

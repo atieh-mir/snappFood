@@ -1,0 +1,26 @@
+main.main {
+    width: 100%;
+    max-width: 85.375rem;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1.5rem;
+}
+
+.breadItem:last-child  {
+    color: #000;
+ }
+.breadItem{
+    font-size: .7rem;
+    color: var(--sf-inactive-dark);
+    font-family: IRANSansMobile;
+    font-weight: bold;
+}
+
+
+
+/* @media (max-width:1023px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+} */

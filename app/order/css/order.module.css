@@ -1,0 +1,80 @@
+.cartContainer{
+    max-width: 50vw;
+    background-color: #fff;
+    border-radius: 10px;
+    border: .1rem solid #eee;
+    width: 100%;
+    font-family: IRANSansMobile;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(83, 86, 92);
+}
+.emptyCart{
+    color: var(--sf-inactive-dark);
+}
+.cartQuantity{
+    font-size: .9rem;
+    font-weight: bold;
+    font-family: IRANSansMobile;
+    align-items: center;
+    
+    margin-bottom: 1rem;
+}
+.cartQuantity p span{
+    font-size: .8rem;
+    margin-right: .2rem;
+    font-weight: lighter;
+}
+.cartQuantity button{
+    border: none;
+    background-color: transparent;
+    font-size: .8rem;
+    padding: 0;
+    color: red;
+}
+.price {
+    font-size: .8rem;
+}
+.quantityBtn{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: .1rem solid #eee;
+    color: var(--sf-accent-main);
+    font-size: 1.2rem;
+    box-shadow: var(--sf-shadows-medium);
+}
+.icon{
+    font-size: .8rem;
+}
+
+.cartItemName{
+    font-size: .9rem;
+}
+
+.submitBtn{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: .8rem;
+    background-color: var(--sf-accent-main);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+.submitBtn:hover{
+    background-color: var(--sf-accent-light);
+}
+
+@media (max-width:1023px){
+    .cartContainer{
+        max-width: 100vw;
+    }
+}

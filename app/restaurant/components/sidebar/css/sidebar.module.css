@@ -1,0 +1,34 @@
+.category{
+    width: 100%;
+    border: .1rem solid #eee;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-family: IRANSansMobile;
+}
+
+.categoryTitle{
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(58, 61, 66, 0.06);
+    border-radius: 10px;
+    padding: .8rem 1rem;
+    font-size: .9rem;
+    color: var(--sf-carbon-main);
+    margin-bottom: 1rem;
+}
+
+.categoryItem{
+    width: 100%;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--sf-carbon-light);
+    font-size: .9rem;
+}
+
+.categoryImg{
+    width: 35px;
+    margin-left: .5rem;
+}

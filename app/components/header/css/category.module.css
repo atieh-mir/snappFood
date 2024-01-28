@@ -1,0 +1,27 @@
+.categoryItems{
+    padding: .5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: IRANSansMobile!important;
+    cursor: pointer;
+}
+
+.categoryItemsImg{
+    width: 35px;
+    height: auto;
+}
+.categoryItemTitle{
+    font-size: .7rem;
+}
+
+@media (max-width:768px){
+    .categoryContainer{
+        overflow-x: scroll;
+    }
+    .categoryItemsImg{
+        width: 40px;
+        height: auto;
+    }
+}

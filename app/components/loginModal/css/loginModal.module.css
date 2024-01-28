@@ -1,0 +1,33 @@
+.btnPink{
+    background-color: var(--sf-accent-main)!important;
+    cursor: pointer;
+    transition: all .5s;
+}
+.btnPink:hover{
+    background-color: var(--sf-accent-dark)!important;
+}
+.logoImg{
+    width: 70px;
+}
+.modalBody{
+    font-family: IRANSansMobile;
+
+}
+
+.numberInput{
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(128, 128, 128, 0.268);
+    border-radius: 10px;
+    text-align: right;
+}
+
+.submitBtn{
+    font-size: 1.5rem!important;
+    font-family: IRANSansMobile!important;
+    background-color: var(--sf-inactive-dark)!important;
+}
+
+.icons{
+    width: 1rem;
+}

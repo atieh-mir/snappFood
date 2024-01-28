@@ -1,0 +1,41 @@
+.main{
+    width: 100%;
+    background-color: var(--sf-surface-main);
+    border-bottom-right-radius: 50px;
+    font-family: IRANSansMobile;
+}
+
+.mainTitle{
+    font-size: 2rem;
+    font-family: SnapWeb;
+    font-weight: 700;
+    color: rgb(58, 61, 66);
+}
+
+.mainInfo{
+    font-family: SnapWeb;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: rgb(58, 61, 66);
+}
+
+.mainBtn{
+    background-color: var(--sf-accent-main);
+    border: none;
+    padding: .5rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all .5s;
+}
+
+.mainBtn:hover{
+    background-color: var(--sf-accent-light);
+}
+
+@media (max-width:1023px){
+    .mainImg{
+        display: none;
+    }
+}
